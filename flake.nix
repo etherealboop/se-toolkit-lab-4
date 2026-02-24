@@ -38,7 +38,7 @@
                       --cache \
                       --format json \
                       "$ROOT_DIR"/'**/*.md' \
-                      | ${pkgs.lib.getExe python} ${./lab/design/scripts/lychee-locate.py}
+                      | ${pkgs.lib.getExe python} ${./instructors/scripts/find-broken-links/post-process-lychee.py}
                   '';
                   help = "Find all broken links in all Markdown files (with file:line locations)";
                 }
