@@ -11,8 +11,8 @@
   - [Install `uv`](#install-uv)
 - [Set up `Python` in `VS Code`](#set-up-python-in-vs-code)
   - [Install `Python` and dependencies](#install-python-and-dependencies)
-  - [Select the `Python` interpreter](#select-the-python-interpreter)
   - [Check that `Python` works](#check-that-python-works)
+  - [Select the `Python` interpreter](#select-the-python-interpreter)
 - [Testing](#testing)
   - [`pytest`](#pytest)
   - [The `assert` statement](#the-assert-statement)
@@ -55,7 +55,7 @@ def greet(name):
 
 ## `uv`
 
-`uv` is a modern package manager for `Python`.
+`uv` is a modern package manager for [`Python`](#what-is-python).
 
 ### Install `uv`
 
@@ -69,8 +69,8 @@ def greet(name):
 Complete these steps:
 
 1. [Install `Python` and dependencies](#install-python-and-dependencies).
-2. [Select the `Python` interpreter](#select-the-python-interpreter).
-3. [Check that `Python` works](#check-that-python-works).
+2. [Check that `Python` works](#check-that-python-works).
+3. [Select the `Python` interpreter](#select-the-python-interpreter).
 
 ### Install `Python` and dependencies
 
@@ -96,13 +96,7 @@ Complete these steps:
 > The `.venv` directory contains the virtual environment.
 > That is, files and dependencies that are necessary to run the web server and other tools.
 >
-> This directory is managed by `uv`. You don't need to edit files in this directory manually.
-
-### Select the `Python` interpreter
-
-1. [Run using the `Command Palette`](./vs-code.md#run-a-command-using-the-command-palette):
-   `Python: Select Interpreter`.
-2. Click `Recommended` to select the interpreter in `./.venv/bin/python`.
+> This directory is managed by [`uv`](#uv). You don't need to edit files in this directory manually.
 
 ### Check that `Python` works
 
@@ -120,7 +114,13 @@ Complete these steps:
    ```
 
 > [!NOTE]
-> The `Python` version for this project is specified in the [`pyproject.toml`](../pyproject.toml) file using the `requires-python` setting.
+> The [`Python`](#what-is-python) version for this project is specified in the [`pyproject.toml`](../pyproject.toml) file using the `requires-python` setting.
+
+### Select the `Python` interpreter
+
+1. [Run using the `Command Palette`](./vs-code.md#run-a-command-using-the-command-palette):
+   `Python: Select Interpreter`.
+2. Click `Recommended` to select the interpreter in `./.venv/bin/python`.
 
 ## Testing
 
