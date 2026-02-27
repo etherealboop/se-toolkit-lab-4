@@ -14,9 +14,10 @@
   - [Pin `nixpkgs`](#pin-nixpkgs)
 - [Flake](#flake)
   - [`flake.lock`](#flakelock)
-  - [Flake registry](#flake-registry)
   - [Common flake commands](#common-flake-commands)
     - [`nix flake update`](#nix-flake-update)
+  - [Flake registry](#flake-registry)
+    - [`nix registry pin`](#nix-registry-pin)
 - [Troubleshooting](#troubleshooting)
   - [Enable `nix-daemon`](#enable-nix-daemon)
 
@@ -67,7 +68,8 @@ Complete these steps:
 
 1. [Install `Nix`](#install-nix).
 2. [Verify `Nix` installation](#verify-nix-installation).
-3. [Pin `nixpkgs`](#pin-nixpkgs).
+3. [Install `jq`](#install-jq).
+4. [Pin `nixpkgs`](#pin-nixpkgs).
 
 ### Install `Nix`
 
@@ -140,15 +142,27 @@ Complete these steps:
 
 ### `flake.lock`
 
-See the [`flake.lock`](../flake.lock) file.
+Docs:
 
-### Flake registry
+- [Lock files](https://nix.dev/manual/nix/2.33/command-ref/new-cli/nix3-flake.html#lock-files)
+
+Example: [`flake.lock`](../flake.lock).
 
 ### Common flake commands
 
 #### `nix flake update`
 
 Update the revision of inputs used in this project using the [`nix flake update`](https://nix.dev/manual/nix/2.33/command-ref/new-cli/nix3-flake-update.html) command.
+
+### Flake registry
+
+Docs:
+
+- [`nix registry`](https://nix.dev/manual/nix/2.33/command-ref/new-cli/nix3-registry.html)
+
+#### `nix registry pin`
+
+<https://nix.dev/manual/nix/2.33/command-ref/new-cli/nix3-registry-pin.html>
 
 ## Troubleshooting
 
