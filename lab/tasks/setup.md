@@ -16,11 +16,11 @@
     - [1.4.3. (UPD) (`Windows` only) Set the default shell for the `VS Code Terminal`](#143-upd-windows-only-set-the-default-shell-for-the-vs-code-terminal)
     - [1.4.4. Set up `Git`](#144-set-up-git)
   - [1.5. (UPD) Open in `VS Code` the `software-engineering-toolkit` directory](#15-upd-open-in-vs-code-the-software-engineering-toolkit-directory)
-  - [1.6. (UPD) Clone your fork and open it in `VS Code`](#16-upd-clone-your-fork-and-open-it-in-vs-code)
+  - [1.6. (UPD) Clone your fork](#16-upd-clone-your-fork)
     - [1.6.1. (UPD) Copy your fork `URL`](#161-upd-copy-your-fork-url)
     - [1.6.2. (UPD) Clone your fork](#162-upd-clone-your-fork)
   - [1.7. (UPD) Open the cloned repo and set up `VS Code`](#17-upd-open-the-cloned-repo-and-set-up-vs-code)
-  - [1.7. Continue creating a VM](#17-continue-creating-a-vm)
+  - [1.8. Continue creating a VM](#18-continue-creating-a-vm)
   - [1.9. Set up `Python`](#19-set-up-python)
     - [1.9.1. Install `uv`](#191-install-uv)
     - [1.9.2. (UPD) Set up `Python` in `VS Code`](#192-upd-set-up-python-in-vs-code)
@@ -183,7 +183,7 @@
 3. [Install recommended extensions](../../wiki/vs-code.md#install-recommended-extensions).
 4. Ask the TA if something doesn't work.
 
-### 1.7. Continue creating a VM
+### 1.8. Continue creating a VM
 
 > [!NOTE]
 > Don't overwrite the key if it already exists.
